@@ -56,3 +56,35 @@ btn-primary {
     color:#252432;
     margin-bottom: 36px;
 }
+
+/* Feature Section */
+.feature-section {
+     padding:50px 0;
+     background-color: #f5f8ff;
+
+}
+
+.feature-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;;
+}
+
+.feature-text {
+    flex: 1;
+    max-width: 520px;
+}
+
+.feature-image {
+    flex-shrink: 0;
+}
+
+.feature-image img {
+    max-width: 400px;
+    max-height: 330px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
