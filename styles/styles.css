@@ -3,6 +3,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+    color: #252432;
+    background-color: #f5f8ff;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* Global Styles */
+.section-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #252432;
+    margin-bottom: 20px;
+}
+
+.section-title.centered {
+    text-align: center;
+}
+/* Navigation Styles */
+.section-description {
+    font-family: 'Railway', sans-serif;
+    font-size: 24px;
+    color: #252432;
+    margin-bottom: 25px;
+    line-height: 1.25;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Railway', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-primary {
+    background-color: #4d47ff;
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #3c38e6;
+    transform:translateY(-2px);
+
+}
+.btn-full{
+    width: 100%;
+    padding: 20px;
+    height: 59px;
+
+}
 /* Hero Section */
 .hero-section {
     background-image: url('../image/Hero-bg.png');
@@ -47,6 +108,12 @@ btn-primary {
     max-width: 950px;
     margin: 0 auto;
     padding: 0 20px;
+
+}
+.hero-style {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size:50px;
 }
 .hero-title {
     font-family: 'Raleway', sans-serif;
@@ -87,4 +154,55 @@ btn-primary {
     height: auto;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Action Section */
+
+
+.action-section {
+    padding: 50px 0;
+    background-color: #f5f8ff;
+}
+
+.action-card {
+    background-color: rgba(77, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 80px;
+    text-align: center
+    
+}
+
+.action-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #252432;
+    margin-bottom: 40px;
+}
+
+.stats-grid {
+    display: flex;
+    justify-self:  space-between;
+    align-items: center;
+    gap: 190px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 180px;
+}
+.stat-value {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #4d47ff;
+    line-height: 1;
+}
+.stat-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 8px;
 }
