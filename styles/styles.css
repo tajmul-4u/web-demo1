@@ -30,7 +30,7 @@
 }
 /* Navigation Styles */
 .section-description {
-    font-family: 'Railway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 24px;
     color: #252432;
     margin-bottom: 25px;
@@ -42,7 +42,7 @@
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
-    font-family: 'Railway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 17px;
     text-decoration: none;
@@ -287,7 +287,7 @@ btn-primary {
     gap: 20px;
 }
 .intro-title {
-    font-family: 'Railway',sans-serif;
+    font-family: 'Raleway',sans-serif;
     font-weight: 616;
     font-size: 50px;
     color: #1e1e1e;
@@ -311,4 +311,72 @@ btn-primary {
     height: 365px;
     object-fit: cover;
     border-radius: 12px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 64px 0;
+    background-color: #f5f8ff;
+}
+
+.contact-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.contact-text {
+    flex: 1;
+    max-width: 528px;
+}
+
+.contact-title {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 97px;
+    color: #000;
+    line-height: 1.1;
+    
+}
+.contact-form {
+    flex: 1;
+    max-width: 500px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 20px 32px;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    color: #000;
+    border: 1px solid #f2eded;
+    border-radius: 10px;
+    background-color: white;
+    transition: border-color 0.3s ease;
+}
+.form-group input {
+    height: 70px;
+}
+.form-group textarea {
+    height: 135px;
+    resize: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4d47ff;
 }
